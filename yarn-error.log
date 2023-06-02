@@ -1,0 +1,60 @@
+Arguments: 
+  /usr/local/bin/node /opt/yarn-v1.22.19/bin/yarn.js install
+
+PATH: 
+  /project/home/pitcher-host/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/project/home/pitcher-host/.local/state/fnm_multishells/1057_1685696052995/bin:/usr/share/fnm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/project/.cache/yarn/v6/npm-@babel-plugin-proposal-unicode-property-regex-7.18.6-af613d2cd5e643643b65cded64207b15c85cb78e-integrity/node_modules/@babel/plugin-proposal-unicode-property-regex/lib/index.js' -> '/project/kwik-barcode-scanner/node_modules/@babel/plugin-proposal-unicode-property-regex/lib/index.js'
+
+npm manifest: 
+  {
+    "name": "react",
+    "version": "1.0.0",
+    "description": "React example starter project",
+    "keywords": [
+      "react",
+      "starter"
+    ],
+    "main": "src/index.js",
+    "dependencies": {
+      "loader-utils": "3.2.1",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "react-icons": "4.8.0",
+      "react-scripts": "5.0.1",
+      "react-toastify": "9.1.2",
+      "react-zxing": "1.1.4"
+    },
+    "devDependencies": {
+      "@babel/runtime": "7.13.8",
+      "typescript": "4.1.3"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
